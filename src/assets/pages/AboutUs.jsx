@@ -279,7 +279,7 @@ export default function AboutUs() {
           </div>
           <div class="w-full h-[1px] bg-[#E5E5EA] mt-[40px]"></div>
           <div
-            className="w-[315px] h-[26px] absolute top-[5715px] left-[733px] mt-[40px]"
+            className="w-[315px] h-[26px] absolute  mt-[250px]"
           >
             Copyright @ Xpro 2022. All Rights Reserved.
           </div>
