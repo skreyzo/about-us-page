@@ -35,15 +35,17 @@ export default function AboutUs() {
         <div className='flex pt-[81px] text-[17px] text-white items-center justify-around'>
           <img src={logo} alt="logo" />
           <div className="flex gap-[60px]">
-            <a href="#">Home</a>
-            <a href="#">About</a>
+            <a href="#" className="font-volkhov font-normal text-[17px] leading-[21.5px] tracking-[0%]">
+              Home</a>
+            <a href="#" className="font-volkhov font-normal text-[17px] leading-[21.5px] tracking-[0%]">
+              About</a>
           </div>
           <button className="w-[152px] h-[58px] bg-[#DF6951] text-white rounded-[10px]">
             Get in Touch
           </button>
         </div>
         <div className='text-center text-white mt-[150px]'>
-          <div>READ</div>
+          <div className='font bold'>READ</div>
           <div className="flex justify-center">
             <img src={aboutUs} alt="aboutUs" />
           </div>
@@ -54,7 +56,10 @@ export default function AboutUs() {
           <div className='text-[#DF6951]'>
             PROMOTION
           </div>
-          <div className='text-[50px] text-[#181E4B]'>
+          <div
+            className="font-volkhov font-bold text-[50px] text-[#181E4B]"
+            style={{ lineHeight: '71.04px', letterSpacing: '0%' }}
+          >
             We Provide You Best <br /> Europe Sightseeing Tours
           </div>
           <div className='text-[16px] mt-[20px]'>
@@ -74,19 +79,23 @@ export default function AboutUs() {
         </div>
       </div>
       <div className='third-section h-[594px]  w-full text-center '>
-      <div className="flex justify-center pt-[200px]">
-            <img src={aboutUs} alt="aboutUs" />
-          </div>
+        <div className="flex justify-center pt-[200px]">
+          <img src={aboutUs} alt="aboutUs" />
+        </div>
       </div>
       <div className='gap-[140px] flex items-center justify-center fourth-section h-[1000px]'>
         <div className='fourth-section-left ml-[-250px]'>
           <img src={parisPic} alt="parisPic" />
         </div>
         <div className='fourth-section-right'>
-          <img src={oyster} alt="oyster" className='translate-x-[480px] translate-y-[140px]' />
+          <img src={oyster} alt="oyster" className='translate-x-[580px] translate-y-[140px]' />
           <div className='fourth-section-right-top'>
-            <div className='text-[18px] text-[#DF6951]'>TREND</div>
-            <div className='text-[50px]'> Our Popular Tour Plans</div>
+            <div className='text-[18px] text-[#DF6951] font-bold'>TREND</div>
+            <div
+              className="font-volkhov font-bold text-[50px] text-[#181E4B]"
+              style={{ lineHeight: '71.04px', letterSpacing: '0%' }}
+            >
+              Our Popular Tour Plans</div>
             <div>Et labore harum non nobis ipsum eum molestias mollitia et corporis <br />
               praesentium a laudantium. Et labore harum non nobis ipsum eum <br /> molestias
               mollitia et corporis praesentium a laudantium.</div>
@@ -100,107 +109,124 @@ export default function AboutUs() {
       </div>
       <div className='fifth-section '>
         <div className=' text-center '>
-          <div className='text-[18px] text-[#DF6951]'>  EXPLORE MORE</div>
-          <div className='text-[50px]'> Our Popular Tour Plans</div>
+          <div className='text-[18px] text-[#DF6951] font-bold'>  EXPLORE MORE</div>
+          <div
+            className="font-volkhov font-bold text-[50px] text-[#181E4B]"
+            style={{ lineHeight: '71.04px', letterSpacing: '0%' }}
+          >
+            Our International Packages
+          </div>
         </div>
-      <div className="flex justify-center">
-        <div >
-          <div className="upperRow flex  gap-8">
-            <div className="firstBlock ">
-              <div className="firstUp ">
-                <img src={barcelona} alt="barcelona" />
+        <div className="flex justify-center">
+          <div >
+            <div className="upperRow flex  gap-8">
+              <div className="firstBlock ">
+                <div className="firstUp ">
+                  <img src={barcelona} alt="barcelona" />
+                  <div className="flex justify-around translate-y-[-50px] text-[white] font-bold text-xl">
+                    <div>Barcelona</div>
+                    <div>840 $</div>
+                  </div>
+                </div>
+                <div className="firstDown">
+                  <img src={tomorrowLand} alt="tomorrowLand" />
+                  <div className="flex justify-around translate-y-[-50px] text-[white] font-bold text-xl">
+                    <div>Tomorrow Land</div>
+                    <div>840 $</div>
+                  </div>
+                </div>
+              </div>
+              <div className="secondBlock">
+                <div className="secondUp">
+                  <img src={switzerland} alt="switzerland" />
+                  <div className="flex justify-around translate-y-[-50px] text-[white] font-bold text-xl">
+                    <div>Switzerland</div>
+                    <div>840 $</div>
+                  </div>
+                </div>
+                <div className="secondDown">
+                  <img src={losAngelas} alt="losAngelas" />
+                  <div className="flex justify-around translate-y-[-50px] text-[white] font-bold text-xl">
+                    <div>Los Angelas</div>
+                    <div>840 $</div>
+                  </div>
+                </div>
+              </div>
+              <div className="thirdBlock">
+                <img src={rioDeGenero} alt="rioDeGenero" className='w-[97%]' />
+                <div className="flex justify-around translate-y-[-50px] text-[white] font-bold text-xl">
+                  <div>Rio De Genero</div>
+                  <div>840 $</div>
+                </div>
+              </div>
+              <div className="fourthBlock">
+                <div className="fourthUp">
+                  <img src={barcelona2} alt="barcelona" />
+                  <div className="flex justify-around translate-y-[-50px] text-[white] font-bold text-xl">
+                    <div>Barcelona</div>
+                    <div>840 $</div>
+                  </div>
+                </div>
+                <div className="fourthDown">
+                  <img src={India} alt="India" />
+                  <div className="flex justify-around translate-y-[-50px] text-[white] font-bold text-xl">
+                    <div>India</div>
+                    <div>840 $</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="downRow flex  gap-8">
+              <div className="fifthBlock">
+                <img src={barcelona3} alt="barcelona" />
                 <div className="flex justify-around translate-y-[-50px] text-[white] font-bold text-xl">
                   <div>Barcelona</div>
                   <div>840 $</div>
                 </div>
               </div>
-              <div className="firstDown">
-                <img src={tomorrowLand} alt="tomorrowLand" />
+              <div className="sixthBlock">
+                <img src={maldives} alt="maldives" />
                 <div className="flex justify-around translate-y-[-50px] text-[white] font-bold text-xl">
-                  <div>Tomorrow Land</div>
+                  <div>Maldives</div>
                   <div>840 $</div>
                 </div>
               </div>
-            </div>
-            <div className="secondBlock">
-              <div className="secondUp">
-                <img src={switzerland} alt="switzerland" />
-                <div className="flex justify-around translate-y-[-50px] text-[white] font-bold text-xl">
-                  <div>Switzerland</div>
-                  <div>840 $</div>
-                </div>
-              </div>
-              <div className="secondDown">
-                <img src={losAngelas} alt="losAngelas" />
-                <div className="flex justify-around translate-y-[-50px] text-[white] font-bold text-xl">
-                  <div>Los Angelas</div>
-                  <div>840 $</div>
-                </div>
-              </div>
-            </div>
-            <div className="thirdBlock">
-              <img src={rioDeGenero} alt="rioDeGenero" className='w-[97%]' />
-              <div className="flex justify-around translate-y-[-50px] text-[white] font-bold text-xl">
-                <div>Rio De Genero</div>
-                <div>840 $</div>
-              </div>
-            </div>
-            <div className="fourthBlock">
-              <div className="fourthUp">
-                <img src={barcelona2} alt="barcelona" />
+              <div className="seventhBlock">
+                <img src={barcelona4} alt="barcelona" />
                 <div className="flex justify-around translate-y-[-50px] text-[white] font-bold text-xl">
                   <div>Barcelona</div>
                   <div>840 $</div>
                 </div>
               </div>
-              <div className="fourthDown">
-                <img src={India} alt="India" />
+              <div className="eightthBlock">
+                <img src={pakistan} alt="pakistan" />
                 <div className="flex justify-around translate-y-[-50px] text-[white] font-bold text-xl">
-                  <div>India</div>
+                  <div>Pakistan</div>
                   <div>840 $</div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="downRow flex  gap-8">
-            <div className="fifthBlock">
-              <img src={barcelona3} alt="barcelona" />
-              <div className="flex justify-around translate-y-[-50px] text-[white] font-bold text-xl">
-                <div>Barcelona</div>
-                <div>840 $</div>
-              </div>
-            </div>
-            <div className="sixthBlock">
-              <img src={maldives} alt="maldives" />
-              <div className="flex justify-around translate-y-[-50px] text-[white] font-bold text-xl">
-                <div>Maldives</div>
-                <div>840 $</div>
-              </div>
-            </div>
-            <div className="seventhBlock">
-              <img src={barcelona4} alt="barcelona" />
-              <div className="flex justify-around translate-y-[-50px] text-[white] font-bold text-xl">
-                <div>Barcelona</div>
-                <div>840 $</div>
-              </div>
-            </div>
-            <div className="eightthBlock">
-              <img src={pakistan} alt="pakistan" />
-              <div className="flex justify-around translate-y-[-50px] text-[white] font-bold text-xl">
-                <div>Pakistan</div>
-                <div>840 $</div>
-              </div>
-            </div>
-          </div>
-        </div>
         </div>
       </div>
       <div className='sixth-section h-[766px] w-full relative'>
         <img src={hat} alt="hat" className="absolute bottom-0 left-0" />
-        <div className='text-[18px] text-[#DF6951] text-center pt-[150px]'>PROMOTION</div>
-        <div className='text-[50px] text-center '> See What Our Clients Say</div>
-        <div className='text-[50px] text-center '>About Us</div>
-        <div class="w-[538px] h-[277px] rounded-[17px] bg-[#FFFFFF] absolute left-1/2 -translate-x-1/2 mt-[80px] flex flex-col justify-center items-center">
+        <div className='text-[18px] text-[#DF6951] text-center pt-[150px] font-bold'>PROMOTION</div>
+        <div
+          className="font-volkhov font-bold text-[50px] text-[#181E4B] text-center"
+          style={{ lineHeight: '71.04px', letterSpacing: '0%' }}
+        >
+
+
+
+          See What Our Clients Say</div>
+        <div
+          className="font-volkhov font-bold text-[50px] text-[#181E4B] text-center"
+          style={{ lineHeight: '71.04px', letterSpacing: '0%' }}
+        >
+
+          About Us</div>
+        <div className="w-[538px] h-[277px] rounded-[17px] bg-[#FFFFFF] absolute left-1/2 -translate-x-1/2 mt-[80px] flex flex-col justify-center items-center">
           <img src={photo} alt="photo" class="max-w-full max-h-full translate-y-[-10px] " />
           <div class="flex gap-[400px] translate-x-[-60px] translate-y-[20px]">
             <img src={navLeft} alt="navLeft" class="relative" />
@@ -221,24 +247,28 @@ export default function AboutUs() {
                 manage payments easily.</div>
               <img src={socials} alt="socials" className='mt-[20px]' />
             </div>
-            <div className=''>
+            <div >
               <div className='font-bold text-[21px]'>Company</div>
-              <div>About Us</div>
-              <div>Careers</div>
-              <div>Blog</div>
-              <div>Pricing</div>
+              <div className='mt-[10px]'>About Us</div>
+              <div className='mt-[10px]'>Careers</div>
+              <div className='mt-[10px]'>Blog</div>
+              <div className='mt-[10px]'>Pricing</div>
             </div>
             <div>
               <div className='font-bold text-[21px]'>Destination</div>
-              <div>Maldives</div>
-              <div>Los Angelas</div>
-              <div>Las Vegas</div>
-              <div>Torronto</div>
+              <div className='mt-[10px]'>Maldives</div>
+              <div className='mt-[10px]'>Los Angelas</div>
+              <div className='mt-[10px]'>Las Vegas</div>
+              <div className='mt-[10px]'>Torronto</div>
             </div>
             <div>
               <div className='font-bold text-[21px]'>Join Our Newsletter</div>
               <div>
-                <input type="email" placeholder="Your email address" class="h-[52px] bg-gray-200" />
+                <input
+                  type="email"
+                  placeholder="Your email address"
+                  className="h-[52px] bg-gray-200 text-center pl-1 mt-[10px]"
+                />                
                 <button className="w-[149] h-[52px] bg-[#DF6951] text-white rounded-[10px]">
                   Subscribe
                 </button>
@@ -248,7 +278,9 @@ export default function AboutUs() {
             </div>
           </div>
           <div class="w-full h-[1px] bg-[#E5E5EA] mt-[40px]"></div>
-          <div className='mt-[40px]'>
+          <div
+            className="w-[315px] h-[26px] absolute top-[5715px] left-[733px] mt-[40px]"
+          >
             Copyright @ Xpro 2022. All Rights Reserved.
           </div>
         </div>

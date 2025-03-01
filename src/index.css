@@ -31,3 +31,20 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+
+@font-face {
+  font-family: 'Volkhov';
+  src: url('../fonts/Volkhov/Volkhov-Regular.woff2') format('woff2'),
+       url('../fonts/Volkhov/Volkhov-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Volkhov';
+  src: url('../Volkhov/fonts/Volkhov-Bold.woff2') format('woff2'),
+       url('../Volkhov/fonts/Volkhov-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
